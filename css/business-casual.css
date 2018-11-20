@@ -218,6 +218,7 @@ footer p {
     border-radius: 3px;
     background: #305db8;
     color: white;
+    font-size: 16px;
 }
 
 .line{
@@ -228,5 +229,5 @@ footer p {
     
     padding-left: 12px;
     font-family: Vendara, sans-serif;
-    font-size: 16px;
+    
 }
