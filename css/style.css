@@ -1,0 +1,12 @@
+/* английский (язык по умолчанию)*/
+[data-i18n]::before {
+    content: attr(data-i18n);
+ }
+ /* немецкий */
+ [data-i18n-uk]:lang(uk)::before {
+    content: attr(data-i18n-uk);
+ }
+ /* русский */
+ [data-i18n-ru]:lang(ru)::before {
+    content: attr(data-i18n-ru);
+ }
