@@ -3,11 +3,45 @@
     margin: 0;
 }
 
+.clearfix {
+      display: block;
+      clear: both;
+}
+
 body{
     background: #1049A9;
+    color: beige;
 }
 
 h1{
-    color: beige;
+    
     text-align: center;
+}
+
+.header{
+    margin: 20px auto;
+    /* height: 100px; */
+    width: 70%;
+    border: wheat 1px solid;
+}
+
+.nick{
+    float: left;
+    padding: 10px;
+    border: wheat 1px solid;
+    margin: 10px;
+    width: 220px;
+}
+
+.nick__text{
+    font-size: 20px;
+    width: 150px;
+}
+
+.difficult{
+    float: left;
+    padding: 10px;
+    border: wheat 1px solid;
+    margin: 10px;
+    width: 220px;
 }
