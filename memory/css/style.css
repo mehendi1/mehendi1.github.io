@@ -75,3 +75,7 @@ h1{
     width: 15%;
 }
 
+.table__box{
+    margin: 10px auto;
+    width: 680px;
+}
