@@ -45,3 +45,33 @@ h1{
     margin: 10px;
     width: 220px;
 }
+
+.start{
+    margin-left: 10px;
+    width: 100px;
+    height: 25px;
+}
+
+.main{
+     margin: 20px auto;
+     /* height: 100px; */
+     width: 70%;
+     border: wheat 1px solid;
+}
+
+.game_box{
+    float: left;
+    padding: 10px;
+    border: wheat 1px solid;
+    margin: 10px;
+    width: 80%;
+}
+
+.score{
+    float: left;
+    padding: 10px;
+    border: wheat 1px solid;
+    margin: 10px;
+    width: 15%;
+}
+
