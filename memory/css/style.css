@@ -21,7 +21,7 @@ h1{
 .header{
     margin: 20px auto;
     /* height: 100px; */
-    width: 70%;
+    width: 90%;
     border: wheat 1px solid;
 }
 
@@ -52,10 +52,26 @@ h1{
     height: 25px;
 }
 
+.timer{
+    float: left;
+    padding: 10px;
+    border: wheat 1px solid;
+    margin: 10px;
+    width: 40px;
+}
+
+.timer__time{
+    text-align: center;
+}
+
+.chempion{
+    
+}
+
 .main{
      margin: 20px auto;
      /* height: 100px; */
-     width: 70%;
+     width: 90%;
      border: wheat 1px solid;
 }
 
@@ -64,18 +80,23 @@ h1{
     padding: 10px;
     border: wheat 1px solid;
     margin: 10px;
-    width: 80%;
+    width: 70%;
 }
 
 .score{
-    float: left;
+    float: right;
     padding: 10px;
     border: wheat 1px solid;
     margin: 10px;
     width: 15%;
+    text-align: center;
 }
 
 .table__box{
     margin: 10px auto;
     width: 680px;
+}
+
+.img__profi{
+    width: 150px ;
 }

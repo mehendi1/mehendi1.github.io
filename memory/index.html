@@ -12,7 +12,7 @@
     <div class="header">
         <div class="nick">
             <span>Имя:</span>
-           <input  type="text" class="nick__text"> 
+           <input  type="text" placeholder="Ваше Имя" value="Вася" class="nick__text"> 
         </div>
         <div class="difficult">
             <select size="1" name="diff">
@@ -22,13 +22,19 @@
             </select>
             <button class="start">Start</button>
         </div>
+        <div class="timer">
+            <span class="timer__time">
+                00:00
+            </span>    
+        </div>
         <div class="clearfix"></div>
     </div>
     <div class="main">
         <div class="game_box">
             <div class="table__box">
                 <table>
-                    <tr>
+                    <!-- Новичек -->
+                    <!-- <tr>
                         <td><img src="img\karta.jpg" alt=""></td>
                         <td><img src="img\karta.jpg" alt=""></td>
                         <td><img src="img\karta.jpg" alt=""></td>
@@ -37,12 +43,34 @@
                         <td><img src="img\karta.jpg" alt=""></td>
                         <td><img src="img\karta.jpg" alt=""></td>
                         <td><img src="img\karta.jpg" alt=""></td>
+                    </tr> -->
+                    <!-- Профи -->
+                    <tr>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
                     </tr>
+                    <tr>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                        <td><img src="img\karta.jpg" class="img__profi" alt=""></td>
+                    </tr>
+
                 </table>
             </div>
         </div>
         <div class="score">
-
+            <span class="chempoin">
+                Чемпионы
+            </span>
         </div>
         <div class="clearfix"></div>
     </div>
